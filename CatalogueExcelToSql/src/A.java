@@ -32,12 +32,12 @@ public class A
 					&& listNew.get(count) != -1.0 && listNew.get(count) != 0.0) 
 				{
 					writer.write("Update WebCatalogueItem Set HorizonBibNum = '" 
-							+ listOld.get(count) + "' WHERE HorizonBibNum = '" 
-							+ listNew.get(count) + "';\n");
+							+ listOld.get(count).intValue() + "' WHERE HorizonBibNum = '" 
+							+ listNew.get(count).intValue() + "';\n");
 				
 					System.out.println("Update WebCatalogueItem Set HorizonBibNum = '" 
-								+ listOld.get(count) + "' WHERE HorizonBibNum = '" 
-								+ listNew.get(count) + "';");
+								+ listOld.get(count).intValue() + "' WHERE HorizonBibNum = '" 
+								+ listNew.get(count).intValue() + "';");
 				}
 				
 				count++;
