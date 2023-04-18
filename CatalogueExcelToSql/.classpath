@@ -7,10 +7,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/Uni/Coop/Winter&amp;Summer2023/Projects/CatalogueExcelToSql/lib/finalSolution/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="F:/Uni/Coop/Winter&amp;Summer2023/Projects/CatalogueExcelToSql/lib/finalSolution/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/Uni/Coop/Winter&amp;Summer2023/Projects/CatalogueExcelToSql/lib/finalSolution/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/Uni/Coop/Winter&amp;Summer2023/Projects/CatalogueExcelToSql/lib/finalSolution/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="F:/Uni/Coop/Winter&amp;Summer2023/Projects/CatalogueExcelToSql/lib/finalSolution/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/malabuschagne/ownProjects/repos/CatalogueExcelToSqlGNB/CatalogueExcelToSql/lib/finalSolution/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/malabuschagne/ownProjects/repos/CatalogueExcelToSqlGNB/CatalogueExcelToSql/lib/finalSolution/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/malabuschagne/ownProjects/repos/CatalogueExcelToSqlGNB/CatalogueExcelToSql/lib/finalSolution/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/malabuschagne/ownProjects/repos/CatalogueExcelToSqlGNB/CatalogueExcelToSql/lib/finalSolution/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/malabuschagne/ownProjects/repos/CatalogueExcelToSqlGNB/CatalogueExcelToSql/lib/finalSolution/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

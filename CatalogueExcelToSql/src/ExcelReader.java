@@ -36,22 +36,13 @@ public class ExcelReader
 				
 				try 
 				{
-					String cell = row.getCell(col).getStringCellValue();
-					list.add(-1.0);
+					Double cell = row.getCell(col).getNumericCellValue();
+					list.add(cell);
 					
 				} catch (Exception e)
 				{
 					//System.out.println(e.toString() + " ==half exit==");
-					try 
-					{
-						Double cell = row.getCell(col).getNumericCellValue();
-						list.add(cell);
-					} catch (Exception x)
-					{
-						list.add(0.0);
-						//System.out.println(e.toString() + " ==three quarter exit==");
-					}
-					
+					list.add(-1.0);
 				}
 			}
 			wb.close();

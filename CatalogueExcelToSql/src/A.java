@@ -1,4 +1,3 @@
-import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
 
@@ -7,6 +6,7 @@ public class A
 	public static void main (String[] args) 
 	{
 		String fileName = "inPutFile.xlsx";
+		fileName = "Catalogue Web Items 2023-04-12.xlsx";
 		if (args.length > 0) {
 			fileName = args[0];
 		}
@@ -16,14 +16,14 @@ public class A
 			column = Integer.parseInt(args[1]);
 		}
 		
-		ExcelReader reader = new ExcelReader(fileName);
+		ExcelReader reader = new ExcelReader("input/" + fileName);
 		ArrayList<Double> listOld = reader.ReadExcelFileColumn(column);
 		ArrayList<Double> listNew = reader.ReadExcelFileColumn(column+1);
 		
 		// File textFile = new File("output.txt");
 		try 
 		{
-			FileWriter writer = new FileWriter("output.txt");
+			FileWriter writer = new FileWriter("output/output.txt");
 			
 			int count = 0;
 			while (listOld.size() > count && listNew.size() > count) 
