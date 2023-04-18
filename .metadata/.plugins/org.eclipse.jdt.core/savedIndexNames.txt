@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+F:\Uni\Coop\Winter&Summer2023\Projects\.metadata\.plugins\org.eclipse.jdt.core
+3099510124.index
+951863012.index
+1265772495.index
+2859431483.index
+635393774.index
+2942991745.index
+1865797976.index
